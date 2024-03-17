@@ -1,0 +1,59 @@
+/* Tilpasninger til Bootstrap-komponenter */
+/* Ændringer til navigationens baggrundsfarve */
+.navbar {
+    background-color: #000000 !important; /* Sort baggrundsfarve */
+}
+
+/* Ændring af farven på ankerlinks i navigationen */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important; /* Hvid tekstfarve */
+}
+
+/* Tilpasning af egne elementer */
+/* Ændringer til sektioners baggrundsfarver */
+section {
+    background-color: #000000 !important; /* Sort baggrundsfarve */
+    color: #ffffff !important; /* Hvid tekstfarve */
+    padding: 20px;
+}
+
+/* Ændring af footerens baggrundsfarve og tekstfarve */
+footer {
+    background-color: #000000 !important; /* Sort baggrundsfarve */
+    color: #ffffff !important; /* Hvid tekstfarve */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Ændring af farven på ankerlinks i sektionerne */
+.section-link {
+    color: #17a2b8 !important; /* Blå farve */
+}
+
+/* Tilføjelse af en border-radius til knapper */
+.btn {
+    border-radius: 0;
+}
+
+/* Ændring af farven på knapper */
+.btn-primary {
+    background-color: #007bff !important; /* Mørk blå farve */
+    border-color: #007bff !important; /* Mørk blå farve */
+    color: #ffffff !important; /* Hvid tekstfarve */
+}
+
+/* Ændring af farven på overskrifter */
+h1, h2, h3 {
+    color: #ffffff !important; /* Hvid farve */
+}
+
+/* Ændringer til din tilpassede stil */
+/* Ændring af baggrundsfarven til sort */
+body {
+    background-color: #000000 !important; /* Sort baggrundsfarve */
+}
+
+/* Ændring af tekstfarven til hvid */
+body, .navbar-brand, .navbar-nav .nav-link, h1, h2, h3, h4, h5, h6, p {
+    color: #ffffff !important; /* Hvid tekstfarve */
+}
