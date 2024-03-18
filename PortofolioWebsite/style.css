@@ -1,7 +1,7 @@
 /* Tilpasninger til Bootstrap-komponenter */
 /* Ændringer til navigationens baggrundsfarve */
 .navbar {
-    background-color: #000000 !important; /* Sort baggrundsfarve */
+    background-color: gray; /* Sort baggrundsfarve */
 }
 
 /* Ændring af farven på ankerlinks i navigationen */
@@ -17,17 +17,43 @@ section {
     padding: 20px;
 }
 
+/* Centrerer billedet */
+.center-image {
+    display: flex;
+    justify-content: center;
+  }
+
 /* Ændring af footerens baggrundsfarve og tekstfarve */
 footer {
-    background-color: #000000 !important; /* Sort baggrundsfarve */
+    background-color: gray; /* Sort baggrundsfarve */
     color: #ffffff !important; /* Hvid tekstfarve */
     text-align: center;
     padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Ændring af farven på ankerlinks i sektionerne */
 .section-link {
     color: #17a2b8 !important; /* Blå farve */
+}
+
+/* Fancy styling til services sektion */
+#services {
+    background-color: #f8f9fa; /* Baggrundsfarve */
+    padding: 50px 0;
+}
+
+.service-box {
+    background-color: gray; /* Grå baggrundsfarve til hver boks */
+    border-radius: 10px; /* Afrundede hjørner */
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Skyggeeffekt */
+    margin-bottom: 30px; /* Mellemrum mellem boksene */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Tilføjelse af en border-radius til knapper */
@@ -42,15 +68,18 @@ footer {
     color: #ffffff !important; /* Hvid tekstfarve */
 }
 
+
 /* Ændring af farven på overskrifter */
 h1, h2, h3 {
-    color: #ffffff !important; /* Hvid farve */
-}
+    color: #007bff; /* Blå farve */
+  }
+  
 
 /* Ændringer til din tilpassede stil */
 /* Ændring af baggrundsfarven til sort */
 body {
-    background-color: #000000 !important; /* Sort baggrundsfarve */
+    background-color: #000000; /* Sort baggrundsfarve */
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Ændring af tekstfarven til hvid */

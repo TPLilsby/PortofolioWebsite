@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Min Portefølje - Hjem</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+
+  <style>
+    /* Tilpasninger til kontaktformularen */
+    .formcontainer {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f8f9fa; /* Baggrundsfarve tilpasset resten af hjemmesiden */
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: #fff; /* Tekstfarve tilpasset resten af hjemmesiden */
+      text-align: center; /* Centrer alt indhold */
+    }
+
+    .text-primary {
+      color: #007bff; /* Overskriftsfarve tilpasset resten af hjemmesiden */
+    }
+
+    label {
+      font-weight: bold; /* Gør etiketterne fet for at skille dem ud */
+      color: #fff; /* Farve tilpasset resten af hjemmesiden */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ced4da; /* Farve tilpasset resten af hjemmesiden */
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    button[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    .error {
+      color: red;
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <a class="navbar-brand text-white font-weight-bold" href="#">Tobias Lilsby</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="home.html">Hjem</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">Om Mig</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projekter</a></li>
+        <li class="nav-item"><a class="nav-link" href="#technologies">Teknologier</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Aftaler</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="formcontainer">
+    <h1 class="text-primary">Kontaktformular</h1>
+
+    <!-- Formularen -->
+    <form id="contactForm" action="YOUR_FORMSPREE_ENDPOINT" method="POST">
+      <!-- Navn -->
+      <label for="name">Navn:</label>
+      <input type="text" id="name" name="name" required>
+
+      <!-- E-mail -->
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <!-- Telefon -->
+      <label for="phone">Telefon:</label>
+      <input type="tel" id="phone" name="phone">
+
+      <!-- Besked -->
+      <label for="message">Besked:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <!-- Indsend knap -->
+      <button type="submit">Indsend</button>
+    </form>
+  </div>
+
+  
+<!-- Footer -->
+<footer class="py-4">
+  <div class="container text-center">
+    <h3 class="mb-0">Du kan kontakte mig her</h3>
+    <a href="contact.html" class="btn btn-primary mb-4">Kontakt</a>
+  </div>
+
+  <p>&copy; 2024 Min Portefølje</p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -4,41 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Min Portefølje - Hjem</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-      <a class="navbar-brand" href="#">Min Portefølje</a>
+      <a class="navbar-brand text-white font-weight-bold" href="#">Tobias Lilsby</a>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="home.html">Hjem</a></li>
         <li class="nav-item"><a class="nav-link" href="about.html">Om Mig</a></li>
-        <li class="nav-item"><a class="nav-link" href="#technologies">Teknologier</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">Aftaler</a></li>
         <li class="nav-item"><a class="nav-link" href="#projects">Projekter</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+        <li class="nav-item"><a class="nav-link" href="#technologies">Teknologier</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Aftaler</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Hjem sektion -->
-  <section id="home">
+   <section id="about" class="py-5">
     <div class="container">
-      <div class="row">
-        <div class="col-md-8 offset-md-2 text-center">
-          <h1>Velkommen til min portefølje!</h1>
-          <p>Jeg er Tobias, en passioneret problemløser og en sand mester i programmeringssprog. Med en unik evne til at kombinere analytiske evner med en sjov og humoristisk tilgang, skaber jeg komplekse løsninger, mens jeg har fuld blæs på rockmusikken.</p>
-          <a href="about.html" class="btn btn-primary">Læs mere</a>
+      <div class="row align-items-center">
+        <!-- Venstre side: Om Mig og Aftaler -->
+        <div class="col-md-6">
+          <div class="lead mb-5 text-center">
+            <h2 class="text-primary">Om Mig</h2>
+            <p>Velkommen til min portefølje! Jeg er Tobias, en passioneret problemløser og en sand mester i programmeringssprog. Med en unik evne til at kombinere analytiske evner med en sjov og humoristisk tilgang, skaber jeg komplekse løsninger, mens jeg har fuld blæs på rockmusikken.</p>
+            <a href="about.html" class="btn btn-primary">Læs mere</a>
+          </div>
+          <div class="lead mb-5 text-center">
+            <h2 class="text-primary">Aftaler</h2>
+            <p>Jeg kan tilbyde et par forskellige aftaler, læs mere her.</p>
+            <a href="services.html" class="btn btn-primary">Aftaler</a>
+          </div>
+        </div>
+        <!-- Højre side: Billede af dig -->
+        <div class="col-md-6">
+          <img src="img/billede-af-mig.jpeg" alt="Tobias" class="img-fluid rounded-lg">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2024 Min Portefølje</p>
-  </footer>
+  
+<!-- Footer -->
+<footer class="py-4">
+  <div class="container text-center">
+    <h3 class="mb-0">Du kan kontakte mig her</h3>
+    <a href="contact.html" class="btn btn-primary mb-4">Kontakt</a>
+  </div>
+
+  <p>&copy; 2024 Min Portefølje</p>
+</footer>
 
   <script src="script.js"></script>
 </body>
