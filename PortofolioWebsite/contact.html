@@ -77,35 +77,58 @@
     </nav>
   </header>
 
+  <h1 class="text-primary text-center">Kontakt</h1>
+
+  <!-- Overskrift og tekstsektion -->
+  <div class="row text-center">
+    <div class="col-md-6">
+      <h3>Har du brug at komme i kontakt med mig?</h3>
+      <p class="lead">Hej, mit navn er Tobias Lilsby, og jeg er en kreativ og passioneret problemknuser inden for teknologi. 
+        <br>Med en blanding af analytisk tænkning og en god portion humor, skaber jeg komplekse løsninger 
+        <br>og leverer dem med en musikalsk tilgang.</p>
+    </div>
+    <div class="col-md-6">
+      <h3>Kontaktinformation</h3>
+      <p>Tobias Phillip Lilsby<br><br>
+      Langedvej 8, 4760 Vordingborg<br><br>
+      Telefon: 71786878<br><br>
+      Email: ttlilsby@gmail.com</p>
+    </div>
+  </div>
+
+  <hr class="styled-line">
+
   <div class="formcontainer">
-    <h1 class="text-primary">Kontaktformular</h1>
+    <h2 class="text-primary">Kontaktformular</h2>
 
     <!-- Formularen -->
-    <form id="contactForm" action="YOUR_FORMSPREE_ENDPOINT" method="POST">
+    <form id="contactForm" action="https://formspree.io/f/mbjnaorw" method="POST">
       <!-- Navn -->
-      <label for="name">Navn:</label>
+      <label class="text-dark" for="name">Navn:</label>
       <input type="text" id="name" name="name" required>
 
       <!-- E-mail -->
-      <label for="email">E-mail:</label>
+      <label class="text-dark" for="email">E-mail:</label>
       <input type="email" id="email" name="email" required>
 
       <!-- Telefon -->
-      <label for="phone">Telefon:</label>
+      <label class="text-dark" for="phone">Telefon:</label>
       <input type="tel" id="phone" name="phone">
 
       <!-- Besked -->
-      <label for="message">Besked:</label>
+      <label class="text-dark" for="message">Besked:</label>
       <textarea id="message" name="message" rows="4" required></textarea>
 
       <!-- Indsend knap -->
       <button type="submit">Indsend</button>
     </form>
   </div>
+  <script src="script.js"></script>
+</body>
 
-  
+ 
 <!-- Footer -->
-<footer class="py-4">
+<footer class="py-4 bg-dark">
   <div class="container text-center">
     <h3 class="mb-0">Du kan kontakte mig her</h3>
     <a href="contact.html" class="btn btn-primary mb-4">Kontakt</a>
@@ -113,7 +136,4 @@
 
   <p>&copy; 2024 Min Portefølje</p>
 </footer>
-
-  <script src="script.js"></script>
-</body>
 </html>

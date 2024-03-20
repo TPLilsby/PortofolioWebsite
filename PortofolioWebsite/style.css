@@ -17,6 +17,62 @@ section {
     padding: 20px;
 }
 
+.top-image {
+    width: 100%; /* Sørg for, at billedet fylder hele skærmens bredde */
+    max-height: 450px;
+    height: auto; /* Juster højden automatisk for at opretholde billedets proportioner */
+    display: block; /* Gør billedet til et blok-element for korrekt placering */
+    margin-bottom: 20px; /* Tilføj en margin nedenfor billedet for at adskille det fra resten af indholdet */
+    object-fit: cover;
+}
+  
+.top-image-container {
+    position: relative;
+}
+  
+.overlay {
+    position: absolute;
+    top: 50%; /* Centrerer boksen vertikalt */
+    left: 50%; /* Centrerer boksen horisontalt */
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Sort halvgennemsigtig baggrund */
+    border-radius: 10px; /* Afrundede hjørner */
+    width: 35%; /* Halv bredde af billedet */
+    height: 50%; /* Automatisk højde baseret på indhold */
+    max-width: 60%; /* Maksimal bredde af boksen */
+    text-align: center;
+  }
+  
+  
+.text {
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+  
+.text h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+  
+.text h3 {
+    font-size: 2.5em;
+}
+  
+.highlight {
+    color: #333; /* Standard tekstfarve */
+  }
+  
+.wow {
+    color: #fff; /* Hvid tekstfarve */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Tilføj en let skygge */
+    background-color: #007bff; /* Blå baggrundsfarve */
+    padding: 5px; /* Tilføj lidt plads omkring teksten */
+    border-radius: 7%; /* Afrundede hjørner */
+}
+  
+  
 /* Centrerer billedet */
 .center-image {
     display: flex;
@@ -29,8 +85,6 @@ footer {
     color: #ffffff !important; /* Hvid tekstfarve */
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 
@@ -68,6 +122,13 @@ footer {
     color: #ffffff !important; /* Hvid tekstfarve */
 }
 
+.styled-line {
+    border: none;
+    height: 1px;
+    background-color: #ccc; /* Farven på den stilede linje */
+    margin: 20px 0; /* Juster efter behov for at adskille elementerne */
+  }
+  
 
 /* Ændring af farven på overskrifter */
 h1, h2, h3 {
